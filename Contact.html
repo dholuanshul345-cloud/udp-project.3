@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Speed Ride</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f4f8f4;
+            text-align: center;
+        }
+        header, nav, footer {
+            background: #124d2b;
+            color: white;
+            padding: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+        nav a:hover { color: red; }
+        section { padding: 40px 20px; }
+        input, textarea {
+            width: 90%;
+            max-width: 400px;
+            padding: 12px;
+            margin: 8px;
+        }
+        button {
+            background: #176b3a;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+        }
+        h2 { color: #176b3a; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🚲 Speed Ride</h1>
+    <p>Your Ride, Your Style!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="product.html">Product</a>
+    <a href="service.html">Service</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<section>
+    <h2>Contact Us</h2>
+
+    <p>Email: bicycleworld@example.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Address: Main Market, Gujarat, India</p>
+
+    <h3>Send Us a Message</h3>
+
+    <form onsubmit="event.preventDefault(); alert('Thank you for contacting us!');">
+        <input type="text" placeholder="Enter Your Name" required><br>
+
+        <input type="email" placeholder="Enter Your Email" required><br>
+
+        <textarea placeholder="Enter Your Message" required></textarea><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Speed Ride | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
