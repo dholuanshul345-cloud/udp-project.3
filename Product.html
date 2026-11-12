@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products - Speed Ride</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f4f8f4;
+            text-align: center;
+        }
+        header, nav, footer {
+            background: #124d2b;
+            color: white;
+            padding: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+        nav a:hover { color: red; }
+        .bike {
+            display: inline-block;
+            background: white;
+            width: 250px;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #bbb;
+        }
+        .bike img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+        }
+
+        .bike img {
+            transition: 0.5s;
+        }
+
+        .bike img:hover {
+            transform: scale(1.2);
+        }
+        button {
+            background: #176b3a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🚲 Speed Ride</h1>
+    <p>Your Ride, Your Style!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="product.html">Product</a>
+    <a href="service.html">Service</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<h2>Our Bicycles</h2>
+
+<div class="bike">
+    <img src="C:\Users\dholu\OneDrive\Pictures\Mountain.img">
+    <h3>Mountain Bike</h3>
+    <p>Strong bike for outdoor adventures.</p>
+    <b>Price: ₹45,000</b><br><br>
+    <button onclick="alert('Mountain Bike selected!')">Buy Now</button>
+</div>
+
+<div class="bike">
+    <img src="C:\Users\dholu\OneDrive\Desktop\image\road .1.webp">
+    <h3>Road Bike</h3>
+    <p>Lightweight bike for fast rides.</p>
+    <b>Price: ₹80,000</b><br><br>
+    <button onclick="alert('Road Bike selected!')">Buy Now</button>
+</div>
+
+<div class="bike">
+    <img src="C:\Users\dholu\OneDrive\Pictures\city.3.webp">
+    <h3>City Bike</h3>
+    <p>Comfortable bike for daily travel.</p>
+    <b>Price: ₹1,50000</b><br><br>
+    <button onclick="alert('City Bike selected!')">Buy Now</button>
+</div>
+
+<footer>
+    <p>© 2026 Speed Ride | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
